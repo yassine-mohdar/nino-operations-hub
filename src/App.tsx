@@ -10,6 +10,7 @@ import ProductDetailPage from "./pages/ProductDetailPage";
 import CreateProductPage from "./pages/CreateProductPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import SettingsPage from "./pages/SettingsPage";
+import OrdersPage from "./pages/OrdersPage";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -29,7 +30,7 @@ const App = () => (
           <Route path="/products/:id" element={<ProductDetailPage />} />
           <Route path="/analytics" element={<AnalyticsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
-          <Route path="/orders" element={<PlaceholderPage title="Orders" />} />
+          <Route path="/orders" element={<OrdersPage />} />
           <Route path="/shipping" element={<PlaceholderPage title="Shipping" />} />
           <Route path="/customers" element={<PlaceholderPage title="Customers" />} />
           <Route path="/support" element={<PlaceholderPage title="Support" />} />
